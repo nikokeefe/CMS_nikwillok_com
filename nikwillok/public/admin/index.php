@@ -18,6 +18,9 @@
             </ul>
         </navigation>
 
+        <div id="content">
+        </div>
+
         <footer>
             &copy <?php echo date('Y'); ?> nikwillok
         </footer>
