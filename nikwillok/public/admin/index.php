@@ -1,29 +1,8 @@
-<!doctype html>
+<?php require_once('../../private/initialize.php'); ?>
+<?php include('../../private/shared/admin_header.php'); ?>
 
-<html lang="en">
-    <head>
-        <title>Backend</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" media="all" href="../stylesheets/admin.css" />
-    </head>
+    <div id="content">
+    
+    </div>
 
-    <body>
-        <header>
-            <h1>Admin Area</h1>
-        </header>
-
-        <navigation>
-            <ul>
-                <li><a href="index.php">Menu</a></li>
-            </ul>
-        </navigation>
-
-        <div id="content">
-        </div>
-
-        <footer>
-            &copy <?php echo date('Y'); ?> nikwillok
-        </footer>
-
-    </body>
-</html>
+<?php include('../../private/shared/admin_footer.php'); ?>  
