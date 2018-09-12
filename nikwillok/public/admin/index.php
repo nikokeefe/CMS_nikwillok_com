@@ -4,6 +4,7 @@
     <head>
         <title>Backend</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" media="all" href="../stylesheets/admin.css" />
     </head>
 
     <body>
