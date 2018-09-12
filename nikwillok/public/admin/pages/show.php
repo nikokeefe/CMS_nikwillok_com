@@ -8,15 +8,14 @@
 
 ?>
 
-
-<?php $page_title = 'Show Subject'; ?>
+<?php $page_title = 'Show Page'; ?>
 <?php include(SHARED_PATH . '/admin_header.php'); ?>
 
     <div id="content">
-        <a class="back-link" href="<?php echo url_for('/admin/subjects/index.php'); ?>">&laquo; Back to List</a>
+        <a class="back-link" href="<?php echo url_for('/admin/pages/index.php'); ?>">&laquo; Back to List</a>
 
-        <div class="subject show">
-            Subject ID: <?php echo h($id); ?>
+        <div class="page show">
+            Page ID: <?php echo h($id); ?>
         </div>
     </div>
 
