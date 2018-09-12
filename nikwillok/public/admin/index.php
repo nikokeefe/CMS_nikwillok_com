@@ -1,8 +1,11 @@
 <?php require_once('../../private/initialize.php'); ?>
-<?php include('../../private/shared/admin_header.php'); ?>
+
+<?php $page_title = 'Admin Menu'; ?>
+
+<?php include(SHARED_PATH . '/admin_header.php'); ?>
 
     <div id="content">
     
     </div>
 
-<?php include('../../private/shared/admin_footer.php'); ?>  
+<?php include(SHARED_PATH . '/admin_footer.php'); ?>  
