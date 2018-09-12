@@ -6,7 +6,7 @@
     <head>
         <title><?php echo $page_title; ?></title>
         <meta charset="utf-8">
-        <link rel="stylesheet" media="all" href="../stylesheets/admin.css" />
+        <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/admin.css'); ?>" />
     </head>
 
     <body>
@@ -16,6 +16,6 @@
 
         <nav>
             <ul>
-                <li><a href="index.php">Menu</a></li>
+                <li><a href="<?php echo url_for('/admin/index.php'); ?>">Menu</a></li>
             </ul>
         </nav>
