@@ -1,0 +1,17 @@
+# Exclude the .htaccess file
+.htaccess
+
+# Exclude the build products
+build/*
+*.[oa]
+
+# Exclude text files
+*.txt
+# Except ReadMe
+!README.txt
+
+# Exclude lof files
+*.log
+
+# Exclude Fonts
+_fonts/
